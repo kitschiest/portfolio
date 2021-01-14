@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+body {
+   margin: 0;
+   width: 100%;
+   height: 100%;
+   line-height: 1.43;
+   background-color: #241f21;
+}
+
+div {
+   display: block;
+}
+
+input {
+   border: none;
+   width: 378px;
+}
+
+a {
+	color: #FFFFFF;
+   font-size: 14px;
+   font-weight: normal;
+   text-decoration: none;
+}
+
+
+
+/* HEADER */
+
+
+
+
+/* MAIN */
+main {
+   width: 100%;
+   max-width: 100vw;
+}
+
+/* SECTION */
+@media only screen and (min-width: 1200px) {
+   .container {
+      width: 980px;
+   }
+}
+
+.brand_img {
+   width: 130px;
+   height: 80px;
+   border: none;
+   border-radius: 12px;
+   filter: grayscale(100%);
+}
+
+.brand_img:hover {
+   filter: grayscale(0%);
+}
+
+.city_name{
+	font-size: 16px;
+}

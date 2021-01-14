@@ -1,0 +1,157 @@
+section {
+	display: flex;
+	justify-content: center; /*flex랑 함께 전체 가운데로 정렬*/
+	align-items: center; /*#홈 검색 가운데 정렬*/
+	position: relative;
+	z-index: 0;
+}
+
+section .contatiner {
+	position: relative;
+}
+
+h1 {
+	display: block;
+	margin: 0;
+	color: #FFFFFF4D;
+}
+
+p {
+	display: block;
+	color: black;
+}
+
+.search-bar {
+	color: rgba(0, 0, 0, 0.87);
+	cursor: text;
+	display: inline-flex;
+	position: relative;
+	font-size: 1rem;
+	box-sizing: border-box;
+	align-items: center;
+	font-family: Inter, sans-serif;
+	line-height: 1.1875em;
+}
+
+.jss38 {
+	color: #182430;
+	padding: 12px 25px;
+	align-items: center;
+	border-radius: 6px;
+	background-color: #FFFFFF;
+	margin-top: 5px;
+}
+
+.search_input {
+	width: 100%;
+	border: 0;
+	height: 1.1875em;
+	margin: 0;
+	display: block;
+	padding: 6px 0 7px;
+	min-width: 0;
+	box-sizing: content-box;
+	-webkit-tap-highlight-color: transparent;
+	border: none; 
+}
+
+.search-button {
+	padding: 30px;
+}
+
+#home {
+	width: 100%;
+	height: 570px;
+	background-color: #241f21;
+	color: #FFFFFF4D;
+}
+
+#home .container {
+	color: white;
+	text-align: center;
+}
+
+section#home .container h1 {
+	font-size: 3rem;
+	line-height: 3.2rem;
+}
+
+#brands {
+	width: 100%;
+	padding-top: 40px;
+}
+
+#brands .container{
+	margin: 0 auto;
+}
+
+.brand-badge-list {
+ 	display:flex;
+	justify-content: space-between;
+}
+
+div .brands {
+	display: inline-block;
+	
+}
+
+#cities {
+	width: 100%;
+	height: 150px;
+	
+}
+.city-badge-list {
+	display:flex;
+	justify-content: space-between;
+}
+div .cities{
+	display: inline-block;
+	
+}
+
+div .cities a{
+	text-decoration: none;
+	color:#0D7D65;
+}
+
+.brand-badge {  
+  line-height: 180px;
+  text-align: center;
+  text-transform: uppercase;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  color: white;
+}
+.brand-badge:hover {
+  cursor: pointer;
+  animation-name: bounce;
+  -moz-animation-name: bounce;
+}
+
+.city-badge{
+  line-height: 80px;
+  text-align: center;
+  text-transform: uppercase;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  color: white;
+
+}
+.city-badge:hover{
+  cursor: pointer;
+  animation-name: bounce;
+  -moz-animation-name: bounce;
+  color: grey;
+}
