@@ -46,29 +46,30 @@
 
    </section>
    <!-- SECTION -->
-   <section id="brands">
+   <div id="row">
+   <section id="languages">
       <div class="container">
          <div>
-            <h2>Linguistic</h2>
+            <h2>Langauges</h2>
          </div>
-         <div class="brand-badge-list">
-         <div data-index="0" class="brands" tabindex="-1" aria-hidden="false" style="outline: none; width: 130px;">
+         <div class="language-list">
+         <div data-index="0" class="languages" tabindex="-1" aria-hidden="false" style="outline: none; width: 130px;">
             <div>
-            <div class="brand-badge ">
+            <div class="language">
                <a>Korean</a>
             </div>
             </div>
          </div>
-         <div data-index="1" class="brands" tabindex="-1" aria-hidden="false" style="outline: none; width: 130px;">
+         <div data-index="1" class="languages" tabindex="-1" aria-hidden="false" style="outline: none; width: 130px;">
             <div>
-               <div class="brand-badge ">
+               <div class="language">
                   <a>English</a>
                </div>
             </div>
          </div>
-         <div data-index="2" class="brands" tabindex="-1" aria-hidden="false" style="outline: none; width: 130px;">
+         <div data-index="2" class="languages" tabindex="-1" aria-hidden="false" style="outline: none; width: 130px;">
             <div>
-               <div class="brand-badge ">
+               <div class="language">
                   <a>French</a>
                </div>
             </div>
@@ -79,30 +80,30 @@
    </section>
 
 <!--  도시 명 검색 시, searchAddr와 마찬가지로, 해당 도시 명이 들어간 주소로 검색하는 기능 -->
-   <section id="cities">
+   <section id="tech_stacks">
       <div class="container">
          <div>
-            <h2>Developer</h2>
+            <h2>Tech Stack</h2>
          </div>
-         <div class="city-badge-list">
-         <div data-index="0" class="cities" tabindex="-1" aria-hidden="false" style="outline: none; width: 130px;">
+         <div class="tech_stack-list">
+         <div data-index="0" class="techs" tabindex="-1" aria-hidden="false" style="outline: none; width: 130px;">
             <div>
-               <div class="city-badge">
-                  <a class="city_name" id="서울시 종로구 종로">Spring</a>
+               <div class="tech">
+                  <a class="tech_name" id="spring">Spring</a>
                </div>
             </div>
          </div>
-         <div data-index="1" class="cities" tabindex="-1" aria-hidden="false" style="outline: none; width: 130px;">
+         <div data-index="1" class="techs" tabindex="-1" aria-hidden="false" style="outline: none; width: 130px;">
             <div>
-               <div class="city-badge">
-                  <a class="city_name" id="서울시 종로구 청진동">Oracle</a>
+               <div class="tech">
+                  <a class="tech_name" id="oracle">Oracle</a>
                </div>
             </div>
          </div>
-         <div data-index="3" class="cities" tabindex="-1" aria-hidden="false" style="outline: none; width: 130px;">
+         <div data-index="3" class="techs" tabindex="-1" aria-hidden="false" style="outline: none; width: 130px;">
             <div>
-               <div class="city-badge">
-                  <a class="city_name" id="강남구청">JAVA</a>
+               <div class="tech">
+                  <a class="tech_name" id="java">JAVA</a>
                </div>
             </div>
          </div>
@@ -110,6 +111,7 @@
       </div>
 
    </section>
+   </div>
   <!-- ASIDE -->
    <aside></aside>
 

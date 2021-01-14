@@ -3,7 +3,8 @@
 body {
    margin: 0;
    width: 100%;
-   height: 100%;
+   height: 1000px;
+   /*내용 추가되면 height는 100%로 변경*/
    line-height: 1.43;
    background-color: #241f21;
 }
@@ -22,6 +23,12 @@ a {
    font-size: 14px;
    font-weight: normal;
    text-decoration: none;
+}
+
+#row {
+	flex-direction: row;
+	display: flex;
+	
 }
 
 
@@ -44,18 +51,7 @@ main {
    }
 }
 
-.brand_img {
-   width: 130px;
-   height: 80px;
-   border: none;
-   border-radius: 12px;
-   filter: grayscale(100%);
-}
 
-.brand_img:hover {
-   filter: grayscale(0%);
-}
-
-.city_name{
+.tech_stack_name{
 	font-size: 16px;
 }
